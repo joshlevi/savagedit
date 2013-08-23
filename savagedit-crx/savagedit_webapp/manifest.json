@@ -1,14 +1,14 @@
 {
-  "name": "SVG-edit",
-  "description": "A fast, web-based, Javascript-driven SVG editor that works in any modern browser",
+  "name": "SaVaGedit",
+  "description": "Get savage w/DIT - A fast, web-based, Javascript-driven SVG editor that works in any modern browser",
   "manifest_version": 2,
-  "version": "2.6",
+  "version": "1.0.0.",
   "app": {
     "urls": [
-      "*://svg-edit.googlecode.com/svn/tags/stable/"
+      "*://savagedit.com"
     ],
     "launch": {
-      "web_url": "http://svg-edit.googlecode.com/svn/tags/stable/editor/svg-editor.html"
+      "web_url": "http://savagedit.com"
     }
   },
   "icons": {
