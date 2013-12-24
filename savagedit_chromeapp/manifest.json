@@ -1,6 +1,6 @@
 {
   "name": "SAVAGEdit",
-  "description": "Get savage with DIT - A fast, web-based, Javascript-driven SVG editor that works in any modern browser",
+  "description": "A fast, web-based, Javascript-driven SVG editor that works in any modern browser",
   "manifest_version": 2,
   "version": "1.0.0.",
   "app": {
