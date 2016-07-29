@@ -1,15 +1,17 @@
 ﻿CACHE MANIFEST
-index.html
+svg-editor.html
 images/logo.png
-jgraduate/css/jPicker-1.0.9.css
-jgraduate/css/jGraduate-0.2.0.css
+jgraduate/css/jPicker.css
+jgraduate/css/jgraduate.css
 svg-editor.css
 spinbtn/JQuerySpinBtn.css
 jquery.js
+config.js
+custom.css
 js-hotkeys/jquery.hotkeys.min.js
-jquery-ui/jquery-ui-1.7.2.custom.min.js
-jgraduate/jpicker-1.0.9.min.js
-jgraduate/jquery.jgraduate.js
+jquery-ui/jquery-ui-1.8.17.custom.min.js
+jgraduate/jpicker.min.js
+jgraduate/jquery.jgraduate.min.js
 spinbtn/JQuerySpinBtn.js
 svgcanvas.js
 svg-editor.js
@@ -54,7 +56,7 @@ images/redo.png
 images/save.png
 images/select.png
 images/sep.png
-images/shape_group.png
+images/shape_group_elements.png
 images/shape_ungroup.png
 images/source.png
 images/square.png
@@ -119,3 +121,34 @@ locale/lang.yi.js
 locale/lang.zh-CN.js
 locale/lang.zh-TW.js
 locale/lang.zh.js
+
+# Dynamic loads
+canvg/canvg.js
+canvg/rgbcolor.js
+jspdf/underscore-min.js
+jspdf/jspdf.js
+jspdf/jspdf.plugin.svgToPdf.js
+
+# Extensions (todo: add other dependency files)
+extensions/ext-arrows.js
+extensions/ext-closepath.js
+extensions/ext-connector.js
+extensions/ext-eyedropper.js
+extensions/ext-foreignobject.js
+extensions/ext-grid.js
+extensions/ext-helloworld.js
+extensions/ext-imagelib.js
+extensions/ext-markers.js
+extensions/ext-mathjax.js
+extensions/ext-overview_window.js
+extensions/ext-panning.js
+extensions/ext-php_savefile.js
+extensions/ext-polygon.js
+extensions/ext-server_moinsave.js
+extensions/ext-server_opensave.js
+extensions/ext-shapes.js
+extensions/ext-star.js
+extensions/ext-storage.js
+extensions/ext-webappfind.js
+extensions/ext-xdomain-messaging.js
+
