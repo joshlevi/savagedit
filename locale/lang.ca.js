@@ -1,3 +1,4 @@
+/*globals svgEditor */
 svgEditor.readLang({
 	lang: "ca",
 	dir : "ltr",
@@ -78,15 +79,15 @@ svgEditor.readLang({
 		"fit_to_sel": "Ajustar a la selecció",
 		"align_relative_to": "Alinear pel que fa a ...",
 		"relativeTo": "en relació amb:",
-		"Pàgina": "Pàgina",
+		"page": "Pàgina",
 		"largest_object": "objecte més gran",
 		"selected_objects": "objectes escollits",
 		"smallest_object": "objecte més petit",
 		"new_doc": "Nova imatge",
 		"open_doc": "Obrir imatge",
-		"export_png": "Export as PNG",
+		"export_img": "Export",
 		"save_doc": "Guardar imatge",
-		"import_doc": "Import SVG",
+		"import_doc": "Import Image",
 		"align_to_page": "Align Element to Page",
 		"align_bottom": "Alinear baix",
 		"align_center": "Alinear al centre",
@@ -118,7 +119,7 @@ svgEditor.readLang({
 		"toggle_grid": "Show/Hide Grid",
 		"clone": "Clone Element(s)",
 		"del": "Delete Element(s)",
-		"group": "Elements de Grup de",
+		"group_elements": "Elements de Grup de",
 		"make_link": "Make (hyper)link",
 		"set_link_url": "Set link URL (leave empty to remove)",
 		"to_path": "Convert to Path",
@@ -182,7 +183,8 @@ svgEditor.readLang({
 		"base_unit": "Base Unit:",
 		"grid": "Grid",
 		"snapping_onoff": "Snapping on/off",
-		"snapping_stepsize": "Snapping Step-Size:"
+		"snapping_stepsize": "Snapping Step-Size:",
+		"grid_color": "Grid color"
 	},
 	shape_cats: {
 		"basic": "Basic",
@@ -230,5 +232,19 @@ svgEditor.readLang({
 		"errorLoadingSVG": "Error: Unable to load SVG data",
 		"URLloadFail": "Unable to load from URL",
 		"retrieving": "Retrieving \"%s\"..."
+	},
+	confirmSetStorage: {
+		message: "By default and where supported, SVG-Edit can store your editor "+
+		"preferences and SVG content locally on your machine so you do not "+
+		"need to add these back each time you load SVG-Edit. If, for privacy "+
+		"reasons, you do not wish to store this information on your machine, "+
+		"you can change away from the default option below.",
+		storagePrefsAndContent: "Store preferences and SVG content locally",
+		storagePrefsOnly: "Only store preferences locally",
+		storagePrefs: "Store preferences locally",
+		storageNoPrefsOrContent: "Do not store my preferences or SVG content locally",
+		storageNoPrefs: "Do not store my preferences locally",
+		rememberLabel: "Remember this choice?",
+		rememberTooltip: "If you choose to opt out of storage while remembering this choice, the URL will change so as to avoid asking again."
 	}
 });
